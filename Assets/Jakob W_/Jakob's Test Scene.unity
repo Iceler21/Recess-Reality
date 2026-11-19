@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &739609300
+--- !u!1001 &280055776
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -133,11 +133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7369937467755745450, guid: c38f0dfc64231a046b92ea9d47aca010, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.3
+      value: 12.37
       objectReference: {fileID: 0}
     - target: {fileID: 7369937467755745450, guid: c38f0dfc64231a046b92ea9d47aca010, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3
+      value: 6.39
       objectReference: {fileID: 0}
     - target: {fileID: 7369937467755745450, guid: c38f0dfc64231a046b92ea9d47aca010, type: 3}
       propertyPath: m_LocalPosition.z
@@ -188,7 +188,6 @@ GameObject:
   - component: {fileID: 887993823}
   - component: {fileID: 887993825}
   - component: {fileID: 887993826}
-  - component: {fileID: 887993827}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -265,7 +264,7 @@ Transform:
   m_GameObject: {fileID: 887993822}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -98.54, y: 19.81, z: 0}
+  m_LocalPosition: {x: -88.43, y: 24.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -315,7 +314,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &887993826
 Rigidbody2D:
@@ -344,19 +343,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &887993827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887993822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4b6eefcfaa0f06448dcefa880320004, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::counter
-  kingkong: 0
 --- !u!1 &1003432941
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,4 +486,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1003432944}
   - {fileID: 887993824}
-  - {fileID: 739609300}
+  - {fileID: 280055776}
