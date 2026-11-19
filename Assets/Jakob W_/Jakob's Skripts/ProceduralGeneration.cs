@@ -1,3 +1,4 @@
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 public class
@@ -31,6 +32,7 @@ TestProceduralGeneration : MonoBehaviour
         { return; }
 
         Instantiate(element, spawnPosition, Quaternion.identity);
+        Debug.Log("Its hitting");
 
         GameObject playerObj = GameObject.FindWithTag("Player");
         
@@ -43,34 +45,8 @@ TestProceduralGeneration : MonoBehaviour
             }
         }
 
-        Invoke(nameof(spawnEnemies), 0.2f);
-    }
-
-    void spawnEnemies()
-    {
         
-
-        Vector3 SpawnPosition = transform.position + new Vector3(Range * width, 5f, 1f);
-
-        int currentDifficulty = 0;
-        GameObject playerObj = GameObject.FindWithTag("Player");
-        if (playerObj != null)
-        {
-            counter playerCounterComponent = playerObj.GetComponent<counter>();
-            if (playerCounterComponent != null)
-            {
-                currentDifficulty = playerCounterComponent.kingkong;
-            }
-        }
-
-        int spawnAmount = BaseEnemyCount + (currentDifficulty / 2);
-        for (int i = 0; i < spawnAmount; i++)
-        {
-            var element = Enemies[Random.Range(0, Enemies.Length)];
-            Instantiate(element, SpawnPosition, Quaternion.identity);
-        }
-
-        RoomSpawned?.Invoke();
     }
-
+    
+    
 }
