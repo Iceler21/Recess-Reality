@@ -6,9 +6,6 @@ TestProceduralGeneration : MonoBehaviour
 {
     [SerializeField] int width, height, Range;
     [SerializeField] GameObject[] Rooms;
-    [SerializeField] GameObject[] Enemies;
-    [SerializeField] int BaseEnemyCount = 1;
-    public static event System.Action RoomSpawned;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player")) 
