@@ -7,23 +7,24 @@ public class PlayerControllerX : MonoBehaviour
     public float speed;
     public float rotationSpeed;
     public float verticalInput;
+    private Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         // get the user's vertical input
         verticalInput = Input.GetAxis("Vertical");
+    }
 
-        // move the plane forward at a constant rate
-        transform.Translate(Vector3.right * speed);
-
-        // tilt the plane up/down based on up/down arrow keys
-        transform.Rotate(verticalInput * Vector3.forward * rotationSpeed * Time.deltaTime);
+    void FixedUpdate()
+    {
+        rb.linearVelocity = transform.right * speed;
+        rb.MoveRotation(rb.rotation + verticalInput * rotationSpeed * Time.fixedDeltaTime);
     }
 }
