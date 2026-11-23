@@ -7,7 +7,7 @@ public class StartMenuOptions : MonoBehaviour
     public void StartButton()
     {
         Debug.Log("The game will now begin...");
-        // SceneManager.LoadScene(SceneToLoad);
+        SceneManager.LoadScene(SceneToLoad);
     }
     public void QuitButton()
     {
