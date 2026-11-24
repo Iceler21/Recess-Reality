@@ -1256,6 +1256,22 @@ PrefabInstance:
       propertyPath: SceneToLoad
       value: Flying
       objectReference: {fileID: 0}
+    - target: {fileID: 1579677856356551853, guid: 0105c85239def42408e51c0085c0b3d9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579677856356551853, guid: 0105c85239def42408e51c0085c0b3d9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579677856356551853, guid: 0105c85239def42408e51c0085c0b3d9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3326483846552545144, guid: 4cc1812edd7bf23458ac20bf585c9220, type: 3}
+    - target: {fileID: 1579677856356551853, guid: 0105c85239def42408e51c0085c0b3d9, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3446803237727067281, guid: 0105c85239def42408e51c0085c0b3d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -90
