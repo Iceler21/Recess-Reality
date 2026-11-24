@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: e84434a7a6dc6054882488ebe4f1bf14, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -555,7 +555,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!225 &564412797
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -686,7 +686,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -711,13 +711,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678233822}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.5, y: 0, z: 0, w: 0.8660254}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -60, y: 0, z: 0}
 --- !u!114 &678233826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5592,13 +5592,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856535954}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -960, y: -537.5, z: 0}
+  m_LocalRotation: {x: -0.17364825, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: -960, y: -515.76, z: 1.99}
   m_LocalScale: {x: 0.70020956, y: 0.70020956, z: 0.70020956}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1320161451}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -20, y: 0, z: 0}
 --- !u!114 &856535959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6044,6 +6044,7 @@ GameObject:
   - component: {fileID: 1753793222}
   - component: {fileID: 1753793221}
   - component: {fileID: 1753793224}
+  - component: {fileID: 1753793225}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -6058,14 +6059,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753793219}
-  m_LocalRotation: {x: -0, y: -0, z: -0.011574631, w: 0.999933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2710652, y: 4.326003, z: 4.326003}
+  m_LocalScale: {x: 2.5, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2086067854}
   m_Father: {fileID: 149835961}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.326}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -73, y: -322}
@@ -6172,6 +6173,23 @@ MonoBehaviour:
   floatSpeed: 1.5
   tiltAngle: 2.5
   isPaused: 0
+--- !u!114 &1753793225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753793219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f167cc40721bf634b9d06dd90db7a351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreditsPaperFlip
+  creditsBodyText: Dont go :(
+  creditsFontSize: 10
+  expandedPosition: {x: 0, y: 0}
+  expandedScale: {x: 12.5, y: 20, z: 1}
+  flipDuration: 0.65
 --- !u!1 &2086067853
 GameObject:
   m_ObjectHideFlags: 0
