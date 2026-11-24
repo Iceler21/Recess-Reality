@@ -35,7 +35,6 @@ public class PlayerControllerX : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (xPos > 20)
         SceneManager.LoadScene(SceneToLoad);
     }
 }
