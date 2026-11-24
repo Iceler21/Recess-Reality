@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3e8a393bfec87f4d8b59b8dc77822c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartMenuOptions
-  SceneToLoad: Main
+  SceneToLoad: Flying
 --- !u!1 &872775533
 GameObject:
   m_ObjectHideFlags: 0

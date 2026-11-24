@@ -1,13 +1,7 @@
 fileFormatVersion: 2
-guid: c41b8183c673ff443aa3cd41b86bfdd7
+guid: 75ed9990e775ffc4a917556e1f7ed9dd
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6894318267237158410
-    second: Girl Walk Sprite Sheet_0
-  - first:
-      213: 3424228586411661513
-    second: Girl Walk Sprite Sheet_1
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -69,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -91,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,20 +126,20 @@ TextureImporter:
       name: Girl Walk Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 3
-        width: 27
-        height: 27
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f1b7d840167250a0800000000000000
-      internalID: -6894318267237158410
+      spriteID: 59fc0f9964ae9d74d99cd3f8089cba1d
+      internalID: 310898814
       vertices: []
       indices: 
       edges: []
@@ -154,20 +148,20 @@ TextureImporter:
       name: Girl Walk Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 3
-        width: 27
-        height: 27
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9c81ecac1cd458f20800000000000000
-      internalID: 3424228586411661513
+      spriteID: 4e044658dc5cd27408b7124c9429c7fa
+      internalID: 1555070216
       vertices: []
       indices: 
       edges: []
@@ -176,7 +170,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aa0235ba09fdb564a93933e78329fa5a
     internalID: 0
     vertices: []
     indices: 
@@ -184,10 +178,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Girl Walk Sprite Sheet_0: -6894318267237158410
-      Girl Walk Sprite Sheet_1: 3424228586411661513
+      Girl Walk Sprite Sheet_0: 310898814
+      Girl Walk Sprite Sheet_1: 1555070216
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,13 +1,7 @@
 fileFormatVersion: 2
-guid: 9d688c6190d662c4e8711dd0a6a04c3f
+guid: 584aaef238a97f84e996b898478028db
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6674077962746312170
-    second: Girl Idle Sprite Sheet_0
-  - first:
-      213: 4836333787354578495
-    second: Girl Idle Sprite Sheet_1
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -69,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -91,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,20 +126,20 @@ TextureImporter:
       name: Girl Idle Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 3
-        width: 27
-        height: 27
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 61a4e332479e063a0800000000000000
-      internalID: -6674077962746312170
+      spriteID: 97c595795d578b548b651f1c2369d356
+      internalID: -578957478
       vertices: []
       indices: 
       edges: []
@@ -154,20 +148,20 @@ TextureImporter:
       name: Girl Idle Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 3
-        width: 27
-        height: 26
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f3e3d72a4fb1e1340800000000000000
-      internalID: 4836333787354578495
+      spriteID: 2a990d79d0a12dd429f429e702eda5d9
+      internalID: 436995749
       vertices: []
       indices: 
       edges: []
@@ -176,7 +170,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 778d38c0a4a8cb9449b88b1ce04037d4
     internalID: 0
     vertices: []
     indices: 
@@ -184,10 +178,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Girl Idle Sprite Sheet_0: -6674077962746312170
-      Girl Idle Sprite Sheet_1: 4836333787354578495
+      Girl Idle Sprite Sheet_0: -578957478
+      Girl Idle Sprite Sheet_1: 436995749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
