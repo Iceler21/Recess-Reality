@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 8444d636265ffa745ae3b114dbeab305
+guid: e3205d34820068b449f81a909d87403f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3546916409315759147
-    second: translucency_gloss_0
+      213: -3326483846552545144
+    second: Plane sprite sheet_0
+  - first:
+      213: -2642944958002760405
+    second: Plane sprite sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: translucency_gloss_0
+      name: Plane sprite sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 1024
+        x: 5
+        y: 5
+        width: 34
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2415419ead293130800000000000000
-      internalID: 3546916409315759147
+      spriteID: 8881927e094f5d1d0800000000000000
+      internalID: -3326483846552545144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plane sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 4
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25f559409f525bd0800000000000000
+      internalID: -2642944958002760405
       vertices: []
       indices: 
       edges: []
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      translucency_gloss_0: 3546916409315759147
+      Plane sprite sheet_0: -3326483846552545144
+      Plane sprite sheet_1: -2642944958002760405
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
