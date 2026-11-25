@@ -15,8 +15,10 @@ public class ItemInstance : MonoBehaviour
         _sprt.sprite = data.sprite;
     }
 
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Inventory.Items.Add(data);
         Destroy(gameObject);
     }
 }
