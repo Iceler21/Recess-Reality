@@ -44,6 +44,8 @@ Material:
     m_Floats:
     - _Max: 1
     - _Min: 0.3
+    - _OutlineColor: 0
+    - _OutlineSize: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Shades: 0.49
